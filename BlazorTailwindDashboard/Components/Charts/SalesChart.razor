@@ -1,0 +1,138 @@
+﻿<div class="relative flex flex-col min-w-0 break-words   w-full mb-6 shadow-lg rounded bg-blueGray-700">
+	<div class="rounded-t mb-0 px-4 py-3 bg-transparent">
+		<div class="flex flex-wrap items-center">
+			<div class="relative w-full max-w-full flex-grow flex-1">
+				<h6 class="uppercase text-blueGray-100 mb-1 text-xs font-semibold">
+					Overview
+				</h6>
+				<h2 class="text-xl  text-blueGray-100 font-semibold">
+					Sales value
+				</h2>
+			</div>
+		</div>
+	</div>
+	<div class="p-4 flex-auto">
+		<div class="relative" style="height:350px">
+			@* <canvas id="line-chart"></canvas>*@
+			<ChartJs Id="sales" Config="@config"></ChartJs>
+		</div>
+	</div>
+</div>
+
+@code {
+
+	object config = new
+	{
+		Type = "line",
+		Options = new
+		{
+			maintainAspectRatio = false,
+			responsive = true,
+			title = new
+			{
+				display = false,
+				text = "Sales Charts",
+				fontColor = "white"
+			},
+			tooltips =
+				new
+				{
+					mode = "index",
+					intersect = false
+				},
+			hover = new
+			{
+				mode = "nearest",
+				intersect = true
+			},
+			legend = new
+			{
+				labels = new
+				{
+					fontColor = "white"
+				},
+				align = "end",
+				position = "bottom"
+
+			},
+			scales = new
+			{
+				xAxes = new
+				{
+					ticks = new
+					{
+						fontColor = "rgba(255,255,255,.7)"
+					},
+					display = true,
+					scaleLabel = new
+					{
+						display = false,
+						labelString = "Month",
+						fontColor = "white"
+					},
+					gridLines = new
+					{
+						display = false,
+						borderDash = new[] { 2 },
+						borderDashOffset = new[] { 2 },
+						color = "rgba(33, 37, 41, 0.3)",
+						zeroLineColor = "rgba(0, 0, 0, 0)",
+						zeroLineBorderDash = new[] { 2 },
+						zeroLineBorderDashOffset = new[] { 2 }
+					}
+				},
+				yAxes = new
+				{
+					ticks = new
+					{
+
+						fontColor = "rgba(255,255,255,.7)"
+					},
+					display = true,
+					scaleLabel = new
+					{
+						display = false,
+						labelString = "Value",
+						fontColor = "white"
+					},
+					gridLines = new
+					{
+
+						borderDash = new[] { 23},
+						borderDashOffset = new[] { 3 },
+						drawBorder = false,
+						color = "rgba(255, 255, 255, 0.15)",
+						zeroLineColor = "rgba(33, 37, 41, 0)",
+						zeroLineBorderDash = new[] { 2 },
+						zeroLineBorderDashOffset = new[] { 2 }
+					}
+				}
+			}
+		},
+		data = new
+		{
+			datasets = new[]
+				{
+					new
+					{
+						label =  DateTime.Now.Year.ToString(),
+						backgroundColor = "#4c51bf",
+						borderColor= "#4c51bf",
+						data= new[] {"65", "78", "66", "44", "56", "67", "75" },
+						fill= false
+					},
+					new
+					{
+						label =  (DateTime.Now.Year-1).ToString(),
+						backgroundColor = "#fff",
+						borderColor= "#fff",
+						data= new[] {"40", "68", "86", "74", "56", "60", "87" },
+						fill= false
+					}
+	},
+	labels = new[] { "January", "February", "March", "April", "May", "June", "July" }
+		},
+		
+	};
+
+}

@@ -1,0 +1,113 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = BlazorTailwindDashboard
+build_property.RootNamespace = BlazorTailwindDashboard
+build_property.ProjectDir = e:\Programming\Projects\Prjct-Big-Dashboard-Bundle\Blazor\Prjct-NotusDashboardBlazor\BlazorTailwindDashboard\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = e:\Programming\Projects\Prjct-Big-Dashboard-Bundle\Blazor\Prjct-NotusDashboardBlazor\BlazorTailwindDashboard
+build_property._RazorSourceGeneratorDebug = 
+
+[e:/Programming/Projects/Prjct-Big-Dashboard-Bundle/Blazor/Prjct-NotusDashboardBlazor/BlazorTailwindDashboard/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[e:/Programming/Projects/Prjct-Big-Dashboard-Bundle/Blazor/Prjct-NotusDashboardBlazor/BlazorTailwindDashboard/Components/Cards/Card.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDYXJkc1xDYXJkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[e:/Programming/Projects/Prjct-Big-Dashboard-Bundle/Blazor/Prjct-NotusDashboardBlazor/BlazorTailwindDashboard/Components/Cards/CardStats.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDYXJkc1xDYXJkU3RhdHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[e:/Programming/Projects/Prjct-Big-Dashboard-Bundle/Blazor/Prjct-NotusDashboardBlazor/BlazorTailwindDashboard/Components/Charts/ChartJs.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDaGFydHNcQ2hhcnRKcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[e:/Programming/Projects/Prjct-Big-Dashboard-Bundle/Blazor/Prjct-NotusDashboardBlazor/BlazorTailwindDashboard/Components/Charts/PerformanceChart.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDaGFydHNcUGVyZm9ybWFuY2VDaGFydC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[e:/Programming/Projects/Prjct-Big-Dashboard-Bundle/Blazor/Prjct-NotusDashboardBlazor/BlazorTailwindDashboard/Components/Charts/SalesChart.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDaGFydHNcU2FsZXNDaGFydC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[e:/Programming/Projects/Prjct-Big-Dashboard-Bundle/Blazor/Prjct-NotusDashboardBlazor/BlazorTailwindDashboard/Components/NotificationDropdown.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xOb3RpZmljYXRpb25Ecm9wZG93bi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[e:/Programming/Projects/Prjct-Big-Dashboard-Bundle/Blazor/Prjct-NotusDashboardBlazor/BlazorTailwindDashboard/Components/Tables/PageVisitTable.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xUYWJsZXNcUGFnZVZpc2l0VGFibGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[e:/Programming/Projects/Prjct-Big-Dashboard-Bundle/Blazor/Prjct-NotusDashboardBlazor/BlazorTailwindDashboard/Components/Tables/SocialTable.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xUYWJsZXNcU29jaWFsVGFibGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[e:/Programming/Projects/Prjct-Big-Dashboard-Bundle/Blazor/Prjct-NotusDashboardBlazor/BlazorTailwindDashboard/Components/UserDropdown.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xVc2VyRHJvcGRvd24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[e:/Programming/Projects/Prjct-Big-Dashboard-Bundle/Blazor/Prjct-NotusDashboardBlazor/BlazorTailwindDashboard/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[e:/Programming/Projects/Prjct-Big-Dashboard-Bundle/Blazor/Prjct-NotusDashboardBlazor/BlazorTailwindDashboard/Pages/Landing.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGFuZGluZy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[e:/Programming/Projects/Prjct-Big-Dashboard-Bundle/Blazor/Prjct-NotusDashboardBlazor/BlazorTailwindDashboard/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[e:/Programming/Projects/Prjct-Big-Dashboard-Bundle/Blazor/Prjct-NotusDashboardBlazor/BlazorTailwindDashboard/Pages/Maps.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFwcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[e:/Programming/Projects/Prjct-Big-Dashboard-Bundle/Blazor/Prjct-NotusDashboardBlazor/BlazorTailwindDashboard/Pages/Profile.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZmlsZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[e:/Programming/Projects/Prjct-Big-Dashboard-Bundle/Blazor/Prjct-NotusDashboardBlazor/BlazorTailwindDashboard/Pages/Register.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[e:/Programming/Projects/Prjct-Big-Dashboard-Bundle/Blazor/Prjct-NotusDashboardBlazor/BlazorTailwindDashboard/Pages/Settings.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2V0dGluZ3MucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[e:/Programming/Projects/Prjct-Big-Dashboard-Bundle/Blazor/Prjct-NotusDashboardBlazor/BlazorTailwindDashboard/Pages/Tables.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFibGVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[e:/Programming/Projects/Prjct-Big-Dashboard-Bundle/Blazor/Prjct-NotusDashboardBlazor/BlazorTailwindDashboard/Shared/Footer.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEZvb3Rlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[e:/Programming/Projects/Prjct-Big-Dashboard-Bundle/Blazor/Prjct-NotusDashboardBlazor/BlazorTailwindDashboard/Shared/Navbars/Navbar.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdmJhcnNcTmF2YmFyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[e:/Programming/Projects/Prjct-Big-Dashboard-Bundle/Blazor/Prjct-NotusDashboardBlazor/BlazorTailwindDashboard/Shared/Navbars/NavbarSmall.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdmJhcnNcTmF2YmFyU21hbGwucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[e:/Programming/Projects/Prjct-Big-Dashboard-Bundle/Blazor/Prjct-NotusDashboardBlazor/BlazorTailwindDashboard/Shared/Navbars/Sidebar.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdmJhcnNcU2lkZWJhci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[e:/Programming/Projects/Prjct-Big-Dashboard-Bundle/Blazor/Prjct-NotusDashboardBlazor/BlazorTailwindDashboard/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[e:/Programming/Projects/Prjct-Big-Dashboard-Bundle/Blazor/Prjct-NotusDashboardBlazor/BlazorTailwindDashboard/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-smvs1cmr58
